@@ -30,6 +30,7 @@ for key in ["API_KEY", "API_SECRET", "LASTFM_USERNAME", "LASTFM_PASSWORD"]:
     print(f"{key}: {'✓' if value else '❌'}")
 
 print("Password loaded:", repr(password))
+print("Password hash:", pylast.md5(password))
 # Login
 try:
     network = pylast.LastFMNetwork(
