@@ -29,7 +29,7 @@ for key in ["API_KEY", "API_SECRET", "LASTFM_USERNAME", "LASTFM_PASSWORD"]:
     value = os.getenv(key)
     print(f"{key}: {'✓' if value else '❌'}")
 
-
+print("Password loaded:", repr(password))
 # Login
 try:
     network = pylast.LastFMNetwork(
