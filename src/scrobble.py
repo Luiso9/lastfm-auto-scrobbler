@@ -22,23 +22,6 @@ password = os.getenv('LASTFM_PASSWORD')
 albums = config['ALBUMS']
 interval = config['INTERVAL']
 MAX_DAILY_SCROBBLES = 2000
-
-# Debug print — loaded environment variables (without secrets)
-print(Fore.CYAN + "=== Environment Variables ===")
-for key in ["API_KEY", "API_SECRET", "LASTFM_USERNAME", "LASTFM_PASSWORD"]:
-    value = os.getenv(key)
-    print(f"{key}: {'✓' if value else '❌'}")
-
-# Debug print — config.json path and contents
-print(Fore.CYAN + f"\n=== Loaded config.json from: {file_path} ===")
-try:
-    with open(file_path, 'r') as json_file:
-        config = json.load(json_file)
-    print(json.dumps(config, indent=4))
-except Exception as e:
-    print(Fore.RED + f"Failed to load config.json: {e}")
-    sys.exit(1)
-
 # Login
 try:
     network = pylast.LastFMNetwork(
