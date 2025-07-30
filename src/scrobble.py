@@ -22,6 +22,14 @@ password = os.getenv('LASTFM_PASSWORD')
 albums = config['ALBUMS']
 interval = config['INTERVAL']
 MAX_DAILY_SCROBBLES = 2000
+
+# Debug print — loaded environment variables (without secrets)
+print(Fore.CYAN + "Is env correct?")
+for key in ["API_KEY", "API_SECRET", "LASTFM_USERNAME", "LASTFM_PASSWORD"]:
+    value = os.getenv(key)
+    print(f"{key}: {'✓' if value else '❌'}")
+
+
 # Login
 try:
     network = pylast.LastFMNetwork(
