@@ -23,14 +23,6 @@ albums = config['ALBUMS']
 interval = config['INTERVAL']
 MAX_DAILY_SCROBBLES = 2000
 
-# Debug print — loaded environment variables (without secrets)
-print(Fore.CYAN + "Is env correct?")
-for key in ["API_KEY", "API_SECRET", "LASTFM_USERNAME", "LASTFM_PASSWORD"]:
-    value = os.getenv(key)
-    print(f"{key}: {'✓' if value else '❌'}")
-
-print("Password loaded:", repr(password))
-print("Password hash:", pylast.md5(password))
 # Login
 try:
     network = pylast.LastFMNetwork(
