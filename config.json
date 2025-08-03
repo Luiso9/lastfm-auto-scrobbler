@@ -1,0 +1,39 @@
+{
+	"ALBUMS": [
+		{
+			"ARTIST": "カネコアヤノ",
+			"ALBUM": "腕の中でしか眠れない猫のように"
+		},
+		{
+			"ARTIST": "Mazzy Star",
+			"ALBUM": "So Tonight That I Might See"
+		},
+		{
+			"ARTIST": "Mazzy Star",
+			"ALBUM": "She Hangs Brightly"
+		},
+		{
+			"ARTIST": "Mazzy Star",
+			"ALBUM": "Seasons of Your Day"
+		},
+		{
+			"ARTIST": "Mazzy Star",
+			"ALBUM": "Quiet, The Winter Harbor"
+		},
+		{
+			"ARTIST": "カネコアヤノ",
+			"ALBUM": "ぼくら花束みたいに寄り添って"
+		},
+		{
+			"ARTIST": "カネコアヤノ",
+			"ALBUM": "タオルケットは穏やかな ひとりでに"
+		},
+		{
+			"ARTIST": "カネコアヤノ",
+			"ALBUM": "祝祭"
+		}
+	],
+	"INTERVAL_MIN": 45,
+	"INTERVAL_MAX": 60,
+	"MAX_DAILY_SCROBBLES": 2000
+}
