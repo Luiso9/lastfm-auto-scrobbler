@@ -1,8 +1,8 @@
 {
 	"ALBUMS": [
 		{
-			"ARTIST": "カネコアヤノ",
-			"ALBUM": "腕の中でしか眠れない猫のように"
+			"ARTIST": "The Velvet Underground",
+			"ALBUM": "The Velvet Underground"
 		},
 		{
 			"ARTIST": "Mazzy Star",
@@ -21,16 +21,16 @@
 			"ALBUM": "Quiet, The Winter Harbor"
 		},
 		{
-			"ARTIST": "カネコアヤノ",
-			"ALBUM": "ぼくら花束みたいに寄り添って"
+			"ARTIST": "Mazzy Star",
+			"ALBUM": "Waitin' For A Sign"
 		},
 		{
-			"ARTIST": "カネコアヤノ",
-			"ALBUM": "タオルケットは穏やかな ひとりでに"
+			"ARTIST": "Mazzy Star",
+			"ALBUM": "Live Tonight"
 		},
 		{
-			"ARTIST": "カネコアヤノ",
-			"ALBUM": "祝祭"
+			"ARTIST": "The Velvet Underground",
+			"ALBUM": "The Velvet Underground & Nico"
 		}
 	],
 	"INTERVAL_MIN": 45,
