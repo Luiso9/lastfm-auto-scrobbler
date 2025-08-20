@@ -2,6 +2,7 @@ import sys
 import os
 from colorama import init, Fore
 
+
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 init(autoreset=True)
 
